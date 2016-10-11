@@ -6,8 +6,8 @@
   background-repeat: repeat-x;
 }
 .row img {
-  width: 200px;
-  height: 200px;
+  /*width: 200px;
+  height: 200px;*/
   overflow: hidden;
 }
 .row p {
@@ -38,4 +38,7 @@ h3 {
 footer ul {
   list-style-type: none;
   text-align: center;
+}
+#instruct {
+  font-style: italic;
 }
