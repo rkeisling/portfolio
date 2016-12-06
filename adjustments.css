@@ -42,3 +42,6 @@ footer ul {
 #instruct {
   font-style: italic;
 }
+.navbar li:hover {
+    cursor: pointer;
+}
