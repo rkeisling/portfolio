@@ -43,5 +43,8 @@ footer ul {
   font-style: italic;
 }
 .navbar li:hover {
-    cursor: pointer;
+  cursor: pointer;
+}
+a {
+  padding: 10px;
 }

@@ -39,6 +39,7 @@
         <li><a data-toggle="modal" data-target="#ROTCModal">JROTC</a></li>
         <li><a data-toggle="modal" data-target="#BCCAModal">BCCA</a></li>
         <li><a data-toggle="modal" data-target="#FarmModal">Other Skills</a></li>
+        <li><a data-toggle='modal' data-target='#ProjectsModal'>Software Projects</a></li>
       </ul>
       <!-- <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
@@ -61,31 +62,39 @@
   <h3>Portfolio and Accomplishments</h3>
   <h4 id='instruct'>(Click a picture to view info)</h4>
   <div class="row">
-    <div class="col-sm-6 col-md-3">
+    <div class='col-sm-1 col-md-1 col-lg-1'></div>
+    <div class="col-sm-2 col-md-2 col-lg-2">
       <p id='lhs'>Lafayette High School</p>
       <button type="button" class="btn openbtn btn-lg" data-toggle="modal" data-target="#LHSModal">
         <img src="pictures/graduation_3.jpeg" class="img-responsive" style="width:100%" alt="Image"/>
       </button>
     </div>
-    <div class="col-sm-6 col-md-3">
+    <div class="col-sm-2 col-md-2 col-lg-2">
       <p id='rotc'>JROTC</p>
       <button type="button" class="btn openbtn btn-lg" data-toggle="modal" data-target="#ROTCModal">
         <img src="pictures/jrotc_personal_2.jpg" class="img-responsive" style="width:100%" alt="Image">
       </button>
     </div>
-    <div class="col-sm-6 col-md-3">
+    <div class="col-sm-2 col-md-2 col-lg-2">
       <p id='bcca'>Base Camp Coding Academy</p>
       <button type="button" class="btn openbtn btn-lg" data-toggle="modal" data-target="#BCCAModal">
         <img src="pictures/base_camp_ex_2.jpg" class="img-responsive" style="width:100%" alt="Image">
       </button>
     </div>
-    <div class="col-sm-6 col-md-3">
+    <div class="col-sm-2 col-md-2 col-lg-2">
       <p id='farm'>Other Skills</p>
       <button type="button" class="btn openbtn btn-lg" data-toggle="modal" data-target="#FarmModal">
         <img src="pictures/farm.jpg" class="img-responsive" style="width:100%" alt="Image">
       </button>
     </div>
+    <div class="col-sm-2 col-md-2 col-lg-2">
+      <p id='projects'>Software Projects</p>
+      <button type="button" class="btn openbtn btn-lg" data-toggle="modal" data-target="#ProjectsModal">
+        <img src="pictures/collage.png" class="img-responsive" style="width:100%" alt="Image">
+      </button>
+    </div>
   </div>
+  <div class='col-sm-1 col-md-1 col-lg-1'></div>
 </div><br>
 <!-- Trigger the modal with a button -->
 <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"></button> -->
@@ -227,6 +236,27 @@
           <li>Knowledgable about many aspects of automobiles and machinery</li>
           <li>Works from arrival at home until well after dark some days</li>
         </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="ProjectsModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Software Projects</h4>
+      </div>
+      <div id='pics' class="modal-body">
+          <a href='https://rkeisling.github.io/'><img src="pictures/shot3.png" class="img-responsive" style="width:100%" alt="Image"></a>
+          <a href='https://cdn.rawgit.com/rkeisling/RAddeyCole/master/index.html'><img src="pictures/shot2.png" class="img-responsive" style="width:100%" alt="Image"></a>
+          <a href='https://rkeisling.github.io/carbon_offset/'><img src="pictures/shot1.png" class="img-responsive" style="width:100%" alt="Image"></a>
+          <a href='https://rkeisling.github.io/browser_sudoku/'><img src="pictures/shot6.png" class="img-responsive" style="width:100%" alt="Image"></a>
+          <a href='https://rkeisling.github.io/flea/'><img src="pictures/shot4.png" class="img-responsive" style="width:100%" alt="Image"></a>
+          <a href='https://rkeisling.github.io/broke-n-hungry/'><img src="pictures/shot5.png" class="img-responsive" style="width:100%" alt="Image"></a>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
